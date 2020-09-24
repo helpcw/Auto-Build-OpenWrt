@@ -19,6 +19,6 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # Define My Package
 #git clone https://github.com/fw876/helloworld.git                                   package/molun/luci-app-ssr-plus
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git                 package/molun/luci-app-adguardhome
-git clone https://github.com/garypang13/openwrt-packages.git package/molun/luci-app-eqos
-git clone https://github.com/garypang13/openwrt-packages.git package/molun/smartdns
-git clone https://github.com/garypang13/openwrt-packages.git package/molun/luci-app-smartdns
+git clone https://github.com/garypang13/openwrt-packages.git package/luci-app-eqos
+git clone https://github.com/garypang13/openwrt-packages.git package/smartdns
+git clone https://github.com/garypang13/openwrt-packages.git package/luci-app-smartdns
