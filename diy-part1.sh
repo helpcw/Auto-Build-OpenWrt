@@ -19,4 +19,6 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 # Define My Package
 #git clone https://github.com/fw876/helloworld.git                                   package/molun/luci-app-ssr-plus
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git                 package/molun/luci-app-adguardhome
-git clone https://github.com/1164715233/packages.git
+git clone https://github.com/1164715233/packages.git package/luci-app-eqos
+git clone https://github.com/1164715233/packages.git package/smartdns
+git clone https://github.com/1164715233/packages.git package/luci-app-smartdns
